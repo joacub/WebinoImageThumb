@@ -1,5 +1,5 @@
 {
-    "name":        "webino/webino-image-thumb",
+    "name":        "joacub/webino-image-thumb",
     "description": "Image Thumbnailer for Zend Framework 2",
     "homepage":    "https://github.com/webino/WebinoImageThumb",
     "type":        "library",
@@ -25,7 +25,7 @@
         "php": ">=5.5",
         "ext-gd": "*",
         "masterexploder/PHPThumb": "2.*",
-        "zendframework/zend-di": "2.*"
+        "zendframework/zend-di": "*"
     },
     "suggest": {
         "zendframework/zend-modulemanager": "To use it as a Zend Framework module"
@@ -33,14 +33,14 @@
     "require-dev": {
         "webino/webino-dev": "dev-develop",
         "webino/webino-debug": "dev-develop",
-        "zendframework/zend-modulemanager": "2.*",
-        "zendframework/zend-version": "2.*",
-        "zendframework/zend-console": "2.*",
-        "zendframework/zend-loader": "2.*",
-        "zendframework/zend-http": "2.*",
-        "zendframework/zend-log": "2.*",
-        "zendframework/zend-mvc": "2.*",
-        "zendframework/zend-view": "2.*"
+        "zendframework/zend-modulemanager": "*",
+        "zendframework/zend-version": "*",
+        "zendframework/zend-console": "*",
+        "zendframework/zend-loader": "*",
+        "zendframework/zend-http": "*",
+        "zendframework/zend-log": "*",
+        "zendframework/zend-mvc": "*",
+        "zendframework/zend-view": "*"
     },
     "autoload": {
         "psr-0": {"WebinoImageThumb": "src/"}
